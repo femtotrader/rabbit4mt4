@@ -108,12 +108,17 @@ ToDo
 ----
 
 * Python receive
+
 	logging to file (`logging.config`)
 	
 * DOM from MT5 (MQL5) (Alpari UK)
+
 	compress data
-	use `JSON_List` instead of `JSON_Dictv
+	
+	use `JSON_List` instead of `JSON_Dict`
+	
 	separate bids and asks
+	
 	remove 1 and 2 (type = bid or ask)
 
 * OrderReceived / OrderModified / OrderClosed

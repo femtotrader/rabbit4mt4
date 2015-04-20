@@ -14,20 +14,25 @@ Install
 * Install missing packages
 
 	https://www.nuget.org/packages/UnmanagedExports
+	
 	To install Unmanaged Exports (DllExport for .Net), run the following command in the Package Manager Console
+	
 	`PM> Install-Package UnmanagedExports`
 
 * Build the "Rabbit4mt4" project it should create unmanaged DLL into `output\bin` folder.
 
 * Put files from `testUnmanagedDLL\testUnmanagedDLL\bin\Debug\` to `<MQL4_directory>\Libraries`
+
 * Also copy files from `testUnmanagedDLL\DllExport\` to `<MQL4_directory>\Libraries`
 
 * Copy scripts, EA as provided in `Rabbit4mt4\emit\MQL4` in directory to respective MQL4 folders.
+
 * Attach the `rabbit4mt4_ticks_emit` EA to EURUSD chart
 
 * Run Python script `receive\Python\receive_ticks.py` (just click on `receive_ticks.bat`)
+
 * You will need before install some package such a `pika`
-* 
+
 	`$ pip install pika`
 
 * Incoming ticks should be displayed in terminal console.
@@ -54,7 +59,7 @@ Done
 
 	send message (JSON) from MT4 to RabbitMQ
 
-	 `mt4_demo01_123456.event.message`
+	`mt4_demo01_123456.event.message`
 
 * SendMessage example with bid / ask
 
@@ -62,7 +67,7 @@ Done
 
 * JSON message creation - see dom_toolbox.mqh
 
-    is used to cleanly generate JSON message
+	is used to cleanly generate JSON message
 
 * Plot of DOM (orderbook) from MT5 with Python, Pandas, Qt (PySide) and PyQtGraph
 
@@ -96,25 +101,33 @@ ToDo
 	remove 1 and 2 (type = bid or ask)
 
 * OrderReceived / OrderModified / OrderClosed
+
 	EA to send message when new order, order modified or order closed
+	
 		see `rabbit4mt4_orders_events.mqh` (master)
+		
 		`mt4_demo01_123456.events.orders.received`
+		
 		`mt4_demo01_123456.events.orders.modified`
+		
 		`mt4_demo01_123456.events.orders.closed`
-			
+
 * OrderSend / OrderModify / OrderClose
+
 	JSON RPC? (return ticket - )
-	generate a random number to be sure that return is about your request
-	(slave)
+
+	generate a random number to be sure that return is about your request (slave)
 	
 	(this part will be hard)
 	
-* Get account information AccountBalance Equity ... History (`MODE_TRADE` and `MODE_HISTORY`)
-using JSON RPC request
+* Get account information AccountBalance Equity ... History (`MODE_TRADE` and `MODE_HISTORY`) using JSON RPC request
 
 * Trade copier MT4
+
 	MT4 master (send message to RabbitMQ such as `OrderReceived` / `OrderModified` / `OrderClosed`)
+
 	MT4 slave (receive message)
+	
 	(maybe) a script between (?)
 
 * JForex master
@@ -122,6 +135,7 @@ using JSON RPC request
 * JForex slave
 	
 * Security
+
 	limit access for a given user
 
 * JSON parser use an other implementation than ydrol's implementation

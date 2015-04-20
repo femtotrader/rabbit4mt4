@@ -9,7 +9,7 @@ Install
 * Install Erlang (OTP 17.0)
 * Install RabbitMQ (3.3.1)
 * Install Visual Studio 2013
-* Install Python (Anaconda Python or Enthought Python)
+* Install a scientific distribution of Python (Anaconda Python or Enthought Python) - I'm using Anaconda
 * Open `Rabbit4mt4.sln`
 * Install missing packages
 
@@ -31,9 +31,17 @@ Install
 
 * Run Python script `receive\Python\receive_ticks.py` (just click on `receive_ticks.bat`)
 
-* You will need before install some package such a `pika`
+* You will need before install some package such a `pika` (AMQP client for Windows), `click` (Command Line Interface Creation Kit) ...
 
-	`$ pip install pika`
+	`$ conda install package_name`
+
+or
+
+	`enpkg package_name`
+
+or
+
+	`$ pip install package_name`
 
 * Incoming ticks should be displayed in terminal console.
 

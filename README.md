@@ -10,7 +10,9 @@ Install
 * Install Erlang (OTP 17.0) http://www.erlang.org/
 * Install RabbitMQ (3.3.1) https://www.rabbitmq.com/
 * Install Visual Studio 2013 https://www.visualstudio.com/
-* Install a scientific distribution of Python (Anaconda Python http://continuum.io/ or Enthought Python https://www.enthought.com/ )
+* Install a scientific distribution of Python
+	* Anaconda Python http://continuum.io/
+	* Enthought Python https://www.enthought.com/
 
 	I'm using Anaconda
 	

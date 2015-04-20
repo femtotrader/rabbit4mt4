@@ -34,9 +34,11 @@ Video
 Some videos to show this project in action
 
 * Realtime Metatrader 5 DOM (orderbook) plot with Python, Pandas, PyQtGraph and RabbitMQ
+
 	https://www.youtube.com/watch?v=4CnowC3UH4s
 	
 * Metatrader 4 JSON RPC with RabbitMQ and MySQL
+
 	https://www.youtube.com/watch?v=2CFt9tGjD8M
 
 Done

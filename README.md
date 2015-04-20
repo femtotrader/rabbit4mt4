@@ -6,10 +6,14 @@ This project contains some examples to work with Metatrader 4 (MT4 build >= 500)
 
 Install
 -------
-* Install Erlang (OTP 17.0)
-* Install RabbitMQ (3.3.1)
-* Install Visual Studio 2013
-* Install a scientific distribution of Python (Anaconda Python or Enthought Python) - I'm using Anaconda
+* Metatrader 4 (or 5) http://www.metaquotes.net/
+* Install Erlang (OTP 17.0) http://www.erlang.org/
+* Install RabbitMQ (3.3.1) https://www.rabbitmq.com/
+* Install Visual Studio 2013 https://www.visualstudio.com/
+* Install a scientific distribution of Python (Anaconda Python http://continuum.io/ or Enthought Python https://www.enthought.com/ )
+
+	I'm using Anaconda
+	
 * Open `Rabbit4mt4.sln`
 * Install missing packages
 
@@ -45,8 +49,9 @@ or
 
 * Incoming ticks should be displayed in terminal console.
 
-Video
------
+Videos
+------
+
 Some videos to show this project in action
 
 * Realtime Metatrader 5 DOM (orderbook) plot with Python, Pandas, PyQtGraph and RabbitMQ
@@ -59,6 +64,7 @@ Some videos to show this project in action
 
 Done
 ----
+
 * SendTick
 
 	`mt4_demo01_123456.event.ticks.eurusd`

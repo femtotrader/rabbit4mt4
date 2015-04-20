@@ -74,11 +74,11 @@ ToDo
 ----
 
 * Python receive
-	logging to file (logging.config)
+	logging to file (`logging.config`)
 	
 * DOM from MT5 (MQL5) (Alpari UK)
 	compress data
-	use JSON_List instead of JSON_Dict
+	use `JSON_List` instead of `JSON_Dictv
 	separate bids and asks
 	remove 1 and 2 (type = bid or ask)
 
@@ -96,11 +96,11 @@ ToDo
 	
 	(this part will be hard)
 	
-* Get account information AccountBalance Equity ... History (MODE_TRADE and MODE_HISTORY)
+* Get account information AccountBalance Equity ... History (`MODE_TRADE` and `MODE_HISTORY`)
 using JSON RPC request
 
 * Trade copier MT4
-	MT4 master (send message to RabbitMQ such as OrderReceived / OrderModified / OrderClosed)
+	MT4 master (send message to RabbitMQ such as `OrderReceived` / `OrderModified` / `OrderClosed`)
 	MT4 slave (receive message)
 	(maybe) a script between (?)
 

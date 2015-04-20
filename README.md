@@ -77,7 +77,7 @@ Done
 
 * SendMessage example with an indicator value
 
-* JSON message creation - see dom_toolbox.mqh
+* JSON message creation - see `dom_toolbox.mqh`
 
 	is used to cleanly generate JSON message
 

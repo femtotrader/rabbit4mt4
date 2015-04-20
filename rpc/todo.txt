@@ -1,0 +1,86 @@
+http://docs.mql4.com/constants/environment_state/accountinformation
+
+    ENUM_ACCOUNT_INFO_INTEGER
+
+ACCOUNT_LOGIN
+ACCOUNT_TRADE_MODE
+ACCOUNT_LEVERAGE
+ACCOUNT_LIMIT_ORDERS
+ACCOUNT_MARGIN_SO_MODE
+ACCOUNT_TRADE_ALLOWED
+ACCOUNT_TRADE_EXPERT
+
+    ENUM_ACCOUNT_INFO_DOUBLE
+
+ACCOUNT_BALANCE
+ACCOUNT_CREDIT
+ACCOUNT_PROFIT
+ACCOUNT_EQUITY
+ACCOUNT_MARGIN
+ACCOUNT_FREEMARGIN
+ACCOUNT_MARGIN_LEVEL
+ACCOUNT_MARGIN_SO_CALL
+ACCOUNT_MARGIN_SO_SO
+
+    ENUM_ACCOUNT_INFO_STRING
+
+ACCOUNT_NAME
+ACCOUNT_SERVER
+ACCOUNT_CURRENCY
+ACCOUNT_COMPANY
+
+    ENUM_ACCOUNT_TRADE_MODE
+
+ACCOUNT_TRADE_MODE_DEMO
+ACCOUNT_TRADE_MODE_CONTEST
+ACCOUNT_TRADE_MODE_REAL
+
+    ACCOUNT_STOPOUT_MODE
+
+ACCOUNT_STOPOUT_MODE_PERCENT
+ACCOUNT_STOPOUT_MODE_MONEY
+
+=======
+
+http://docs.mql4.com/constants/environment_state/mql4_programm_info
+
+
+
+Fix problem with
+rabbit4mt4_execute_rpc.mq4
+
+Add standard JSON RPC 2.0 Error Code
+http://www.jsonrpc.org/specification
+code	message	meaning
+-32700	Parse error	Invalid JSON was received by the server.
+An error occurred on the server while parsing the JSON text.
+-32600	Invalid Request	The JSON sent is not a valid Request object.
+-32601	Method not found	The method does not exist / is not available.
+-32602	Invalid params	Invalid method parameter(s).
+-32603	Internal error	Internal JSON-RPC error.
+-32000 to -32099	Server error	Reserved for implementation-defined server-errors.
+
+class ParseError(JsonRpcError):
+    code = -32700
+    message = u"Invalid JSON was received by the server."
+
+class InvalidRequest(JsonRpcError):
+    code = -32600
+    message = u"The JSON sent is not a valid Request object."
+
+class MethodNotFound(JsonRpcError):
+    code = -32601
+    message = u"The method does not exist / is not available."
+
+class InvalidParams(JsonRpcError):
+    code = -32602
+    message = u"Invalid method parameter(s)."
+
+class InternalError(JsonRpcError):
+    code = -32603
+    message = u"Internal JSON-RPC error."
+
+Implement an "add" function on MQL side
+add 2 integers (a, b) and return (a+b)
+try to call using JSON RPC this function and
+return result to a RabbitMQ queue

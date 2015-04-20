@@ -1,0 +1,32 @@
+2014-05-13
+----------
+Maybe I should use PyQtGraph
+http://pyqtgraph.org/
+
+Install it using
+pip install pyqtgraph
+
+Run examples
+python -m pyqtgraph.examples
+
+Having a problem PyQtGraph window seems frozen
+"Using Pika and PyQtGraph (Qt event loop and BlockingConnection)"
+https://groups.google.com/forum/#!topic/rabbitmq-discuss/fDVzgJPLcuo
+
+
+---> https://groups.google.com/forum/#!msg/pyqtgraph/haiJsGhxTaQ/sTtMa195dHsJ
+Luke Campagnola (PyQtGraph) ->
+Have a look at this discussion:
+https://groups.google.com/forum/#!msg/pyqtgraph/haiJsGhxTaQ/sTtMa195dHsJ
+All you should need to do is move your MQ code inside the thread's 'run' method.
+
+
+
+===
+
+2014-05-08
+----------
+I'm having issue with
+realtime plotting orderbook with Matplotlib
+see interactive mode (ion)
+

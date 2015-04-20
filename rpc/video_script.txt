@@ -1,0 +1,42 @@
+2014-06-30
+new syntax with "use_terminal" method to change from a terminal to an other
+
+from json_rpc_db_amqp import MT4_MySQL_RabbitMQ_Bridge
+
+b = MT4_MySQL_RabbitMQ_Bridge(terminal_id="mt4_demo01_123456")
+#b.use_terminal("mt4_demo01_123456")
+b.Comment("Hello Gustave!")
+b.Print("Hi Femto!")
+b.use_terminal("mt4_demo02_123456").Comment("This guy is silly!")
+b.use_terminal("mt4_demo01_123456").Comment("Maybe ;-)")
+
+but we can also do
+
+b1 = MT4_MySQL_RabbitMQ_Bridge().use_terminal("mt4_demo01_123456")
+b2 = MT4_MySQL_RabbitMQ_Bridge().use_terminal("mt4_demo02_123456")
+b1.Comment("Hello Gustave!")
+b1.Print("Hi Femto!")
+b2.use_terminal("mt4_demo02_123456").Comment("This guy is silly!")
+b2.use_terminal("mt4_demo01_123456").Comment("Maybe ;-)")
+
+===
+
+2014-06-28
+Video script of
+Metatrader 4 JSON RPC with RabbitMQ and MySQL
+https://www.youtube.com/watch?v=2CFt9tGjD8M
+
+WINDOWS+R cmd
+
+> ipython
+
+from json_rpc_db_amqp import MT4_MySQL_RabbitMQ_Bridge
+
+b = MT4_MySQL_RabbitMQ_Bridge("mt4_demo01_123456")
+b.Comment("Hello Gustave!")
+b.Print("Hi Femto!")
+
+b2 = MT4_MySQL_RabbitMQ_Bridge("mt4_demo02_123456")
+b2.Comment("This guy is silly!")
+
+b.Comment("Maybe ;-)")

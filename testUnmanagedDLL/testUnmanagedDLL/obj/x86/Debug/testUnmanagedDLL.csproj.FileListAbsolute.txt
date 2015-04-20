@@ -1,0 +1,4 @@
+C:\Users\scls\Downloads\testUnmanagedDLL\testUnmanagedDLL\testUnmanagedDLL\bin\Debug\x86\testUMD.dll
+C:\Users\scls\Downloads\testUnmanagedDLL\testUnmanagedDLL\testUnmanagedDLL\bin\Debug\x86\testUMD.pdb
+C:\Users\scls\Downloads\testUnmanagedDLL\testUnmanagedDLL\testUnmanagedDLL\obj\x86\Debug\testUMD.dll
+C:\Users\scls\Downloads\testUnmanagedDLL\testUnmanagedDLL\testUnmanagedDLL\obj\x86\Debug\testUMD.pdb

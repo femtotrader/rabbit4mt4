@@ -1,0 +1,2 @@
+python json_rpc_db_amqp_client.py
+pause

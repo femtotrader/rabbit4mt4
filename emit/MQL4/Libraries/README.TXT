@@ -1,0 +1,1 @@
+Copy files from testUnmanagedDLL\testUnmanagedDLL\bin\Debug\x86

@@ -1,0 +1,15 @@
+C:\Users\Patrick\Documents\Visual Studio 2010\Projects\testUnmanagedDLL\testUnmanagedDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Patrick\Documents\Visual Studio 2010\Projects\testUnmanagedDLL\testUnmanagedDLL\bin\Debug\testUMD.dll
+C:\Users\Patrick\Documents\Visual Studio 2010\Projects\testUnmanagedDLL\testUnmanagedDLL\bin\Debug\testUMD.pdb
+C:\Users\Patrick\Documents\Visual Studio 2010\Projects\testUnmanagedDLL\testUnmanagedDLL\obj\Debug\testUMD.dll
+C:\Users\Patrick\Documents\Visual Studio 2010\Projects\testUnmanagedDLL\testUnmanagedDLL\obj\Debug\testUMD.pdb
+C:\Users\Patrick\Documents\Visual Studio 2010\Projects\Test\testUnmanagedDLL\testUnmanagedDLL\bin\Debug\testUMD.dll
+C:\Users\Patrick\Documents\Visual Studio 2010\Projects\Test\testUnmanagedDLL\testUnmanagedDLL\bin\Debug\testUMD.pdb
+C:\Users\Patrick\Documents\Visual Studio 2010\Projects\Test\testUnmanagedDLL\testUnmanagedDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Patrick\Documents\Visual Studio 2010\Projects\Test\testUnmanagedDLL\testUnmanagedDLL\obj\Debug\testUMD.dll
+C:\Users\Patrick\Documents\Visual Studio 2010\Projects\Test\testUnmanagedDLL\testUnmanagedDLL\obj\Debug\testUMD.pdb
+C:\Users\scls\Downloads\testUnmanagedDLL\testUnmanagedDLL\testUnmanagedDLL\bin\Debug\testUMD.dll
+C:\Users\scls\Downloads\testUnmanagedDLL\testUnmanagedDLL\testUnmanagedDLL\bin\Debug\testUMD.pdb
+C:\Users\scls\Downloads\testUnmanagedDLL\testUnmanagedDLL\testUnmanagedDLL\obj\Debug\testUMD.dll
+C:\Users\scls\Downloads\testUnmanagedDLL\testUnmanagedDLL\testUnmanagedDLL\obj\Debug\testUMD.pdb
+C:\Users\scls\Downloads\testUnmanagedDLL\testUnmanagedDLL\testUnmanagedDLL\obj\Debug\testUnmanagedDLL.csprojResolveAssemblyReference.cache

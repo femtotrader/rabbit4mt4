@@ -1,0 +1,14 @@
+C:\Users\scls\Downloads\Rabbit4mt4\testUnmanagedDLL\ReceiveTicks\bin\Debug\ReceiveTicks.exe.config
+C:\Users\scls\Downloads\Rabbit4mt4\testUnmanagedDLL\ReceiveTicks\bin\Debug\ReceiveTicks.exe
+C:\Users\scls\Downloads\Rabbit4mt4\testUnmanagedDLL\ReceiveTicks\bin\Debug\ReceiveTicks.pdb
+C:\Users\scls\Downloads\Rabbit4mt4\testUnmanagedDLL\ReceiveTicks\obj\Debug\ReceiveTicks.csprojResolveAssemblyReference.cache
+C:\Users\scls\Downloads\Rabbit4mt4\testUnmanagedDLL\ReceiveTicks\obj\Debug\ReceiveTicks.exe
+C:\Users\scls\Downloads\Rabbit4mt4\testUnmanagedDLL\ReceiveTicks\obj\Debug\ReceiveTicks.pdb
+C:\Users\scls\Documents\pythonforecast1\trunk\Rabbit4mt4\testUnmanagedDLL\ReceiveTicks\bin\Debug\ReceiveTicks.exe.config
+C:\Users\scls\Documents\pythonforecast1\trunk\Rabbit4mt4\testUnmanagedDLL\ReceiveTicks\bin\Debug\ReceiveTicks.exe
+C:\Users\scls\Documents\pythonforecast1\trunk\Rabbit4mt4\testUnmanagedDLL\ReceiveTicks\bin\Debug\ReceiveTicks.pdb
+C:\Users\scls\Documents\pythonforecast1\trunk\Rabbit4mt4\testUnmanagedDLL\ReceiveTicks\bin\Debug\RabbitMQ.Client.dll
+C:\Users\scls\Documents\pythonforecast1\trunk\Rabbit4mt4\testUnmanagedDLL\ReceiveTicks\bin\Debug\RabbitMQ.Client.xml
+C:\Users\scls\Documents\pythonforecast1\trunk\Rabbit4mt4\testUnmanagedDLL\ReceiveTicks\obj\Debug\ReceiveTicks.exe
+C:\Users\scls\Documents\pythonforecast1\trunk\Rabbit4mt4\testUnmanagedDLL\ReceiveTicks\obj\Debug\ReceiveTicks.pdb
+C:\Users\scls\Documents\pythonforecast1\trunk\Rabbit4mt4\testUnmanagedDLL\ReceiveTicks\obj\Debug\ReceiveTicks.csprojResolveAssemblyReference.cache

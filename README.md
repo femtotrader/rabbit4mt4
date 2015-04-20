@@ -39,15 +39,11 @@ Install
 
 * You will need before install some package such a `pika` (AMQP client for Windows), `click` (Command Line Interface Creation Kit) ...
 
-	`$ conda install package_name`
+	* use `$ conda install package_name`
+	* or `enpkg package_name`
+	* or `$ pip install package_name`
 
-or
-
-	`enpkg package_name`
-
-or
-
-	`$ pip install package_name`
+to install missing packages
 
 * Incoming ticks should be displayed in terminal console.
 

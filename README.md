@@ -158,3 +158,7 @@ ToDo
 * JSON parser use an other implementation than ydrol's implementation
 
 	see https://www.mql5.com/en/forum/28928
+	
+* Improve order book visualization and analysis
+
+	see http://quant.stackexchange.com/questions/1865/what-tools-exist-for-order-book-analysis-and-visualization/17426#17426

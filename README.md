@@ -1,11 +1,9 @@
-Rabbit4MT4
-==========
+#Rabbit4MT4
 
 This project contains some examples to work with Metatrader 4 (MT4 build >= 500) and RabbitMQ.
 
 
-Install
--------
+##Install
 * Metatrader 4 (or 5) http://www.metaquotes.net/
 * Install Erlang (OTP 17.0) http://www.erlang.org/
 * Install RabbitMQ (3.3.1) https://www.rabbitmq.com/
@@ -47,8 +45,7 @@ to install missing packages
 
 * Incoming ticks should be displayed in terminal console.
 
-Videos
-------
+##Videos
 
 Some videos to show this project in action
 
@@ -60,8 +57,7 @@ Some videos to show this project in action
 
 	https://www.youtube.com/watch?v=2CFt9tGjD8M
 
-Done
-----
+##Done
 
 * SendTick
 
@@ -100,8 +96,7 @@ Done
     can be used to parse JSON RPC request on MQL side
 
 
-ToDo
-----
+##ToDo
 
 * Python receive
 
@@ -162,3 +157,7 @@ ToDo
 * Improve order book visualization and analysis
 
 	see http://quant.stackexchange.com/questions/1865/what-tools-exist-for-order-book-analysis-and-visualization/17426#17426
+
+##See also
+
+* <https://github.com/OpenTrading/OTMql4AMQP>
